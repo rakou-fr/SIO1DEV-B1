@@ -1,0 +1,10 @@
+1. Pourquoi la page d'accueil est en HTML alors que la page "tortue" est en PHP ?
+car le php permet de crée les pages des tortues en allant chercher dans la BDD sql et de crée un page à la volet sur demande.
+2. Qu'est ce qui est envoyé à la page "tortue" ?
+des inputs/valeur pour pouvoir faire une request sql pour ensuite crée la page avec les infos recupéré dans le BDD
+3. D'où proviennent les informations des tortues ? Est ce qu'il y a plusieurs sources ?
+De la BDD sql non une seul source
+4. Décrivez les principales étapes réalisées par la page "tortue"
+prends inputs, se connecte au server sql, puis à la bdd, faire la request pour obtenir les informations sur la tortu, met dans un html et met les informations récolté dans le html et l'envoie au client.
+5. Quel est l'avantage du ht13c par rapport au ht13b ?
+c'est dynamique
