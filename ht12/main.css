@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* -- Visualisation des bordures de tableau -- */
+
+table, th, td {
+  border-style: solid;
+  border-width: 1px;
+  border-color : black;
+  border-collapse: collapse;
+}
+/* -- Taille des cellules -- */
+td {
+  width : 50px;
+  height : 100px;
+}
+
+/* -- Couleurs du drapeau -- */
+
+td.bleu {
+  background-color: blue;
+}
+td.blanc {
+  background-color: white;
+}
+td.rouge {
+  background-color: red;
+}
+td.vert {
+  background-color: green;
+}
+td.noir {
+  background-color: black;
+}
+td.blanc {
+  background-color: white;
+}
+td.jaune {
+  background-color: yellow;
+}
+td.orange {
+    background-color: orange;
+}
+
+td.violet {
+    background-color: purple;
+}
+
+td {
+    width: 50px;
+    height: 100px;
+}
+
+table:last-of-type td {
+    width: 155px;
+    height: 15px;
+}
