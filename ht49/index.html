@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ht49</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>ht49 : formulaire de contact</h1>
+    <form action="verif.php" method="post">
+        <label for="sexe">Titre</label>
+        <br>
+        <select name="Titre" id="sexe">
+            <option value="Mademoiselle">Mademoiselle</option>
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+        </select>
+        <br><br>
+
+        <label for="Name">Nom</label>
+        <br>
+        <input type="text" name="Name">
+        <br><br>
+
+        <label for="Prenom">Prenom</label>
+        <br>
+        <input type="text" name="Prenom">
+        <br><br>
+
+        <input name="Urgent" type="checkbox"/>
+        <label for="subscribeNews">Urgent</label>
+        <br><br>
+        
+        <label for="Message">Message</label>
+        <br>
+        <input type="text" name="Message">
+
+        <br><br>
+
+        <button type="submit">Envoyer</button>
+        <button type="reset">Réinitiliser</button>
+    </form>
+</body>
+</html>

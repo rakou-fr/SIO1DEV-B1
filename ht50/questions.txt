@@ -1,0 +1,14 @@
+1. Quelle est la particularité de la validation de la page "verif.php" du ht50 ?
+elle est dynamique
+
+2. Quelle est la particularité de l'URL du ht50 ?
+la réponse des inputs envoyer est dedans
+
+3. Si la case à cocher "bière" n'est pas cochée, qu'est ce qui est envoyé au serveur ?
+rien c'est pas pris en compte
+
+4. Pourquoi la page "index" n'est pas en PHP ?
+car elle a pas besoin d'etre dynamique
+
+5. Pourquoi le champ "sexe" est à "m" quand on sélectionne "un garçon" ?
+car on a mis une valeur de réponse dans le input

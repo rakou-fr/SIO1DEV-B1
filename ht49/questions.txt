@@ -1,0 +1,10 @@
+1. Quelle est la particularité de la validation de la page "verif.php" du ht49 ?
+
+2. Quelle est la particularité de l'URL du ht49 ?
+Les informations passe par post donc par le lien
+
+3. Si la case à cocher "urgent" n'est pas cochée, qu'est ce qui est envoyé au serveur ?
+    rien
+
+4. Pourquoi la page "index" n'est pas en PHP ?
+car lui s'occupe de recuilir l'infirmation et est statique

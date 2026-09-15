@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ht49</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>ht50 : Questionnaire</h1>
+    <form action="verif.php" method="post">
+
+        <label for="Name">Nom</label>
+        <br>
+        <input type="text" name="Name">
+        <br><br>
+
+        <label for="Prenom">Prenom</label>
+        <br>
+        <input type="text" name="Prenom">
+        <br><br>
+
+        <label for="Departement">Département de résidence</label>
+        <br>
+        <select name="Departement">
+            <option value="Gers">Gers</option>
+            <option value="Gard">Gard</option>
+            <option value="Haute Garonne">Haute Garonne</option>
+        </select>
+        <br><br>
+
+        <div>
+            J'aime
+            <br>
+            <input type="checkbox" name="Biere">
+            <label for="Biere">Biere</label><br>
+            <input type="checkbox" name="Aligot">
+            <label for="Aligot">Aligot</label><br>
+            <input type="checkbox" name="Choucroute">
+            <label for="Choucroute">Choucroute</label><br>
+        </div>
+        <br>
+        <div>
+            Je suis <br>
+            <label for="Garcon">Un Garcon</label>
+            <input type="radio" name="Garcon" value="M">
+            <label for="Fille">Une fille</label>
+            <input type="radio" name="Fille" value="F">
+        </div>
+
+        <br><br>
+
+        <button type="submit">Envoyer</button>
+        <button type="reset">Réinitiliser</button>
+    </form>
+</body>
+</html>
